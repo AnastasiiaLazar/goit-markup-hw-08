@@ -1,0 +1,26 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+
+    --accent-color: #2196F3;
+    --order-btn-hover-color: #188CE8;
+    --main-text-color: #212121;
+    --muted-text-color: #757575;
+    --light-text-color: #FFFFFF;
+    --dark-logo-text-color: #000000;
+    --mute-logo-transparent-text: rgba(255, 255, 255, 0.6);
+
+    --bg-primary-color: #FFFFFF;
+    --bg-main-dark-color: #2F303A;
+    --bg-team-section-color: #F5F4FA;
+    --bg-card-color: #FFFFFF;
+    --bg-filter-btn: #F5F4FA;
+
+    --card-border-color: #EEEEEE;
+    --header-border-color: #ECECEC;
+    --input-border-color: rgba(33, 33, 33, 0.2);
+
+    --icon-color: #AFB1B8;
+
+    --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
