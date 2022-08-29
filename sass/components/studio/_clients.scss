@@ -10,7 +10,6 @@
     justify-content: center;
     align-items: center;
 
-    width: 170px;
     height: 92px;
 
     border: 1px solid var(--icon-color);
@@ -26,6 +25,21 @@
     }
 }
 
+.clients__item {
+    flex-basis: calc((100% - 30px) / 2);
+}
+
+@media screen and (min-width: 768px){
+    .clients__item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.clients__item {
+        flex-basis: calc((100% - 150px) / 6);
+    }   
+}
 
 
 
